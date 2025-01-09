@@ -34,7 +34,7 @@ Here,  $X_{p(i)}$ represents the time series padded (Padding(∙)) using the dif
 The files are data_process_1_cu.ipynb and data_process_1_xi.ipynb.
 The auxiliary file is local_global.py.
 ## Feature Extraction in Time-Frequency Domain
-Files are data_process_read_cu.m and data_process_read_xi.m.
+Files are data_process_read_cu.m, data_process_read_xi.m and feature_together.m.
 
 In order to analyze the characteristics of the trend components in the sensor signals, the sliding window algorithm is employed to divide the trend components into appropriately sized segments. Time-domain and frequen-cy-domain features are extracted from each data segment to create a feature da-taset, which provides an information source for the fault detection of the sensing line. 
 Through multiple experiments, it was concluded that setting the window size to 2000 and the stride to 1000 achieves a balance between accuracy and feature represen-tation capability. This configuration effectively captures trend information while avoiding excessive redundancy.
